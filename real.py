@@ -16,7 +16,7 @@ def generate_data():
         st.table(data)
 
         # Sleep to simulate real-time updates
-        time.sleep(1)
+        time.sleep(10)
 
 # Main Streamlit app
 def main():
