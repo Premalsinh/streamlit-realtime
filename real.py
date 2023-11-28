@@ -5,6 +5,7 @@ import numpy as np
 
 # Function to simulate streaming data
 def generate_data():
+    st.table("Table")
     while True:
         # Simulate streaming data (replace this with your actual data source)
         data = pd.DataFrame({
@@ -14,7 +15,7 @@ def generate_data():
 
         # Display the streaming data in the Streamlit app
         
-        st.table(data)
+        
         st.add_rows(data)
 
         # Sleep to simulate real-time updates
