@@ -24,7 +24,7 @@ def main():
 
     # Start streaming data
     generate_data()
-    st.table(data)
+    st.add_rows(data)
 
 if __name__ == "__main__":
     main()
