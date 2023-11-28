@@ -5,7 +5,7 @@ import numpy as np
 
 # Function to simulate streaming data
 def generate_data():
-    st.table()
+    st.table(data)
     while True:
         # Simulate streaming data (replace this with your actual data source)
         data = pd.DataFrame({
