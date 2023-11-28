@@ -23,6 +23,7 @@ def main():
     st.title("Real-Time Streaming in Streamlit")
 
     # Start streaming data
+    st.table()
     generate_data()
     st.add_rows(data)
 
