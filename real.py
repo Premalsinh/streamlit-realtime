@@ -13,6 +13,7 @@ def generate_data():
         })
 
         # Display the streaming data in the Streamlit app
+        st.table()
         st.add_rows(data)
 
         # Sleep to simulate real-time updates
@@ -23,7 +24,7 @@ def main():
     st.title("Real-Time Streaming in Streamlit")
 
     # Start streaming data
-    st.table()
+    
     generate_data()
    
 
